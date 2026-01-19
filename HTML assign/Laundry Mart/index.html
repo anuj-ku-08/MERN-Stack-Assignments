@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./laundry-mart.png" type="image/png">
+    <title>Laundry Mart</title>
+</head>
+<body>
+    <main>
+
+        <section id="head">
+            <header>
+            <h1><strong> Welcome ! to Laundry Mart  </strong></h1>
+            </header>
+        </section>
+
+        <section id="about">
+            <article>
+                <p>Laundry Mart is your all-in-one solution for premium garment care, designed to take the stress out of your weekly chores. We specialize in high-quality washing, dry cleaning, and steam ironing services that utilize state-of-the-art machinery and eco-friendly detergents. Our team is committed to preserving the life of your fabrics, ensuring every item—from everyday wear to luxury linens—returns to you smelling fresh and looking brand new. With a focus on unmatched convenience and reliability, we offer flexible scheduling and prompt delivery to fit your busy lifestyle. At Laundry Mart, we handle the heavy lifting so you can focus on what truly matters, providing a professional touch that you can see and feel in every fold.</p>
+            </article>
+        </section>
+
+        <section id="image">
+            <img src="./wasi.png" alt="Image of washing-machine" width="400" height="300">
+        </section>
+
+        <section id="services">
+            <h2>Our Services:</h2>
+            <ul>
+                <li>Washing and Drying</li>
+                <li>Ironing and Folding</li>
+                <li>Dry Cleaning</li>
+                <li>Stain Removal</li>
+                <li>Express Services</li>
+                <li>Special Garment care</li>
+                <li>And more...</li>
+            </ul>
+        </section>
+        
+        <section id="price">
+            <h2>Pricing List:</h2>
+            <table border="1">
+                <tr>
+                    <th>Service</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Washing and Drying</td>
+                    <td>Rs 10 per load</td>
+                </tr>
+                <tr>
+                    <td>Ironing and Folding</td>
+                    <td>Rs 5 per item</td>
+                </tr>
+                <tr>
+                    <td>Dry Cleaning</td>
+                    <td>Rs 15 per item</td>
+                </tr>
+                <tr>
+                    <td>Stain Removal</td>
+                    <td>Rs 7 per item</td>
+                </tr>
+                <tr>
+                    <td>Express Services</td>
+                    <td>Rs 20 extra</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="booking">
+            <h2>Book a Service:</h2>
+            <form action="#">
+
+                <label for="fName">Full Name:</label>
+                <input type="text" id="fName"  required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" required><br><br>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" required><br><br>
+
+                <label for="service">Select Service:</label>
+                <select id="service" required>
+                    <option value="">--Select--</option>
+                    <option value="washing">Washing and Drying</option>
+                    <option value="ironing">Ironing and Folding</option>
+                    <option value="dry_cleaning">Dry Cleaning</option>
+                    <option value="stain_removal">Stain Removal</option>
+                    <option value="express">Express Services</option>
+                </select><br><br>
+                <label for="date">Preferred Date:</label>
+                <input type="date" id="date" required><br><br>
+                <textarea  id="cmt" rows="5" cols="50" placeholder="Instructions You want to add:"></textarea><br><br>
+                <input type="submit" value="Book Now">
+                <input type="reset" value="Reset">
+            </form>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us at:</h2>
+            <p>Email: info@laundrymart.com</p>
+        </section>
+
+    </main>
+</body>
+</html>
